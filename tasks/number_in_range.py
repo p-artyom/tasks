@@ -8,7 +8,7 @@ def is_prime_number(number: int) -> bool:
     return True
 
 
-def number_in_range(min_value: int, max_value: int) -> list:
+def number_in_range(min_value: int, max_value: int) -> list[int]:
     '''Возвращает список всех простых чисел в заданном диапазоне.'''
     return [
         number
